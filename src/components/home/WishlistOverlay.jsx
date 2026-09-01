@@ -1,7 +1,7 @@
 import React from 'react';
 import { X } from 'lucide-react';
 import '../../home.css';
-import overlayImg from '../../assets/grey_sweatshirt.jpg';
+import { greySweatshirt as overlayImg } from '../../assets/productImages.js';
 
 export default function WishlistOverlay({ onDismiss, onViewItem, product }) {
   const displayProduct = product || {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Share2, Heart, RefreshCcw, Star, ChevronRight, ShoppingBag } from 'lucide-react';
-import heroImg from '../../assets/black_tshirt.jpg';
+import { blackTshirt as heroImg } from '../../assets/productImages.js';
 
 const DEFAULT_PRODUCT = {
   brand: 'London Hills',

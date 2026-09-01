@@ -11,12 +11,14 @@ import {
 import './pdp.css';
 
 // Wishlist Components
-import img1 from './assets/black_tshirt.jpg';
-import img2 from './assets/navy_tshirt.jpg';
-import img3 from './assets/grey_sweatshirt.jpg';
-import img4 from './assets/beige_sweatshirt.jpg';
-import img5 from './assets/printed_tshirt.jpg';
-import img6 from './assets/striped_tshirt.jpg';
+import {
+  beigeSweatshirt as img4,
+  blackTshirt as img1,
+  greySweatshirt as img3,
+  navyTshirt as img2,
+  printedTshirt as img5,
+  stripedTshirt as img6,
+} from './assets/productImages.js';
 
 import Header from './components/Header';
 import LocationBar from './components/LocationBar';

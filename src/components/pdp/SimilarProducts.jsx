@@ -1,8 +1,10 @@
 import React from 'react';
 import { Star } from 'lucide-react';
-import simImg1 from '../../assets/black_tshirt.jpg';
-import simImg2 from '../../assets/printed_tshirt.jpg';
-import simImg3 from '../../assets/striped_tshirt.jpg';
+import {
+  blackTshirt as simImg1,
+  printedTshirt as simImg2,
+  stripedTshirt as simImg3,
+} from '../../assets/productImages.js';
 
 export default function SimilarProducts() {
   const products = [
