@@ -9,6 +9,7 @@ import {
   useParams,
 } from 'react-router-dom';
 import './pdp.css';
+import { REVIEW_STATS } from './reviewStats.js';
 
 // Wishlist Components
 import {
@@ -74,8 +75,7 @@ const PDP_PRODUCTS = {
     dealPrice: 364,
     extraOff: 29,
     rating: '4.1',
-    ratingsCount: 31,
-    reviewsCount: 7,
+    ...REVIEW_STATS,
     color: 'Black',
     selectedSize: 'L',
     chest: '42.0in',
@@ -94,8 +94,7 @@ const PDP_PRODUCTS = {
     dealPrice: 353,
     extraOff: 29,
     rating: '4.1',
-    ratingsCount: 31,
-    reviewsCount: 7,
+    ...REVIEW_STATS,
     color: 'Black',
     selectedSize: 'L',
     chest: '42.0in',
@@ -114,8 +113,7 @@ const PDP_PRODUCTS = {
     dealPrice: 470,
     extraOff: 29,
     rating: '4.0',
-    ratingsCount: 44,
-    reviewsCount: 9,
+    ...REVIEW_STATS,
     color: 'Black',
     selectedSize: 'L',
     chest: '42.0in',
@@ -134,8 +132,7 @@ const PDP_PRODUCTS = {
     dealPrice: 621,
     extraOff: 29,
     rating: '3.8',
-    ratingsCount: 52,
-    reviewsCount: 12,
+    ...REVIEW_STATS,
     color: 'Grey',
     selectedSize: 'L',
     chest: '42.0in',
